@@ -63,6 +63,11 @@ Put this code into the file:
 ansible-playbook hello.yml
 ```
 
+### Uncomment this line in `/etc/ansible/ansible.cfg` to disable ssh host key checking
+```
+host_key_checking = False
+```
+
 That's it! you can now check your client for /tmp/hello.text
 
 
