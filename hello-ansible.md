@@ -67,7 +67,10 @@ ansible-playbook hello.yml
 ```
 host_key_checking = False
 ```
-
+### To use docker:
+```
+pip install docker-py`
+```
 That's it! you can now check your client for /tmp/hello.text
 
 
